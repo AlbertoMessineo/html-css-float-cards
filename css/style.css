@@ -73,8 +73,8 @@ p{
 
 .info{ 
   color: white;
-  float: right;
-  padding-right: 40px;
+  float: left;
+  padding-left: 5px;
   padding-top: 15px;
   text-align: left;
 
@@ -90,5 +90,11 @@ p{
 }
 
 h2{
-  font-size:  16px; ;
+  font-size:  16px; 
+  margin-bottom: 5px;
+}
+a{
+  padding-top: 10px;
+  color:#4dccf2 ;
+  text-decoration: none;
 }
