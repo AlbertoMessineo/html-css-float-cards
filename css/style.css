@@ -10,3 +10,54 @@ _________________*/
   /*________________
 _____CSS RESET____
 _________________*/
+
+
+body {
+width: 1140px ;
+height: auto;
+font-family: 'Fredoka', sans-serif;
+background-color: #fffffe;
+text-align: center;
+padding: 20px 40px;
+
+}
+
+
+/*__________
+_____TITLE____
+  __________*/
+h1{
+color: #e53170 ;
+font-size: 30px;
+padding-top: 50px;
+margin-bottom: 30px;
+font-weight: 800;
+
+}
+/*__________
+_____TITLE____
+  __________*/
+
+p{
+    font-size: 12px;
+}
+
+.container{
+    width: calc(100% / 3 -20px) ;
+}
+
+.clearfix ::after {
+    content: '';
+    display: block;
+    clear: both;
+
+}
+
+
+.box{
+    width: 360px ;
+    height: 100px ;
+    background-color: #0f0e17;
+    float: left;
+    margin: 50px 30px;
+}  
