@@ -74,7 +74,9 @@ p{
 .info{ 
   color: white;
   float: right;
-  padding-right: 20px;
+  padding-right: 40px;
+  padding-top: 15px;
+  text-align: left;
 
 }
 
@@ -85,6 +87,8 @@ p{
   width: 100px;
   height: 100px;
   object-fit: contain
- 
+}
 
+h2{
+  font-size:  16px; ;
 }
