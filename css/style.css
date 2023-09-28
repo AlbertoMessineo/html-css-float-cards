@@ -13,7 +13,7 @@ _________________*/
 
 
 body {
-width: 1140px ;
+max-width: 1500px ;
 height: auto;
 font-family: 'Fredoka', sans-serif;
 background-color: #fffffe;
@@ -27,6 +27,7 @@ padding: 20px 40px;
 _____TITLE____
   __________*/
 h1{
+font-family: 'Skranji', cursive;   
 color: #e53170 ;
 font-size: 30px;
 padding-top: 50px;
@@ -43,7 +44,8 @@ p{
 }
 
 .container{
-    width: calc(100% / 3 -20px) ;
+  width: auto;
+  margin: auto;
 }
 
 .clearfix ::after {
@@ -52,12 +54,25 @@ p{
     clear: both;
 
 }
-
+.col {
+  width: calc(100% / 3 -30px) ;
+  margin: 30px;
+  display: inline-block;
+}
 
 .box{
     width: 360px ;
     height: 100px ;
     background-color: #0f0e17;
     float: left;
-    margin: 50px 30px;
+    margin: -5px -15px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px grey;;    
 }  
+
+#foto{
+  float: left;
+ 
+
+}
