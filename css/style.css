@@ -11,12 +11,20 @@ _________________*/
 _____CSS RESET____
 _________________*/
 
+header{
+  text-align: center;
+  margin-bottom: 30px; 
+ 
+}
+
+
 
 body {
 width: 70%;
 height: auto;
 font-family: 'Fredoka', sans-serif;
 background-color: #fffffe;
+text-align: center;
 }
 
 
@@ -41,8 +49,9 @@ p{
 }
 
 .container{
-  width: 300px;
+  width: 1200px;
   margin: 0;
+  
 }
 
 .clearfix ::after {
@@ -52,18 +61,20 @@ p{
 
 }
 .col {
-  width: calc(100% / 3 - 40px) ;
-  margin: 28px;
-  display: inline-block;
+  width: calc(100% / 3 - 60px) ;
+  margin: 30px;
+  margin-top: 10px ; 
+  margin-bottom: 20px ;
+  float: left;
 }
 
 .box{
     width: 360px ;
     height: 100px ;
     background-color: #0f0e17;
-    float: left;
     margin: 10px 20px;
     border: 1px solid;
+    float: left;
     padding: 0px;
     box-shadow: 2px 2px 2px 2px grey;;    
 }  
@@ -77,19 +88,17 @@ p{
 
 }
 
-
-
 #foto{
   
-  width: 100%;
-  height: 100%;
-
+  width: 99px;
+  height: 99px;
 }
 
 h2{
   font-size:  16px; 
   margin-bottom: 5px;
 }
+
 a{
   padding-top: 10px;
   color:#4dccf2 ;
